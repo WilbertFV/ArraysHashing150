@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "ArraysHashing150_ae2a870"
+    },
+    {
+      "type": "java",
       "name": "ContainsDuplicate",
       "request": "launch",
       "mainClass": "ContainsDuplicate",
