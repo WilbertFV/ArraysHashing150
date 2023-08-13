@@ -1,6 +1,6 @@
 # question: https://leetcode.com/problems/contains-duplicate/
 
-from ast import List
+from typing import List
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -11,3 +11,9 @@ class Solution:
                 return True
             hashset.add(n)
         return False
+
+# Test the method
+solution = Solution()
+nums = [1, 2, 3, 4, 2]
+result = solution.containsDuplicate(nums)
+print("Contains duplicate:", result)  # Output will be True
