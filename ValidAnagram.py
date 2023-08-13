@@ -17,4 +17,4 @@ solution = Solution()
 s = "anagram"
 t = "nagaram"
 result = solution.isAnagram(s, t)
-print("Is anagram:", result)  # Output will be True
+print("Is anagram:", result)  # Output will be Truee
